@@ -12,7 +12,7 @@ function Contacts() {
                     <TextField className={s.input_form} id="outlined-basic" label="ФИО" variant="outlined"/>
                     <TextField className={s.input_form} id="outlined-basic" label="E-mail" variant="outlined"/>
                     <TextField className={s.input_form} id="outlined-basic" label="Сообщение" variant="outlined"/>
-                    <Button variant="contained">Отправить</Button>
+                    <Button variant="contained" style={{background: 'linear-gradient(225deg, rgb(105, 112, 111) 18%, rgb(0, 0, 0))'}}>Отправить</Button>
                 </form>
             </div>
         </div>

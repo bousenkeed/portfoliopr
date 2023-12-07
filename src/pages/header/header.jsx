@@ -12,7 +12,7 @@ import { Icon } from '@mui/material';
 function Header() {
   return (
     <Box  sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{backgroundColor: ' #3b6289'}}>
+      <AppBar position="static" style={{background: 'linear-gradient(225deg, rgb(105, 112, 111) 18%, rgb(0, 0, 0))'}}>
         <Toolbar >
           <IconButton
             size="large"

@@ -13,7 +13,7 @@ import s from './footer.module.css'
 function Footer() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" style={{ backgroundColor: ' #3b6289' }}>
+            <AppBar position="static" style={{ backgroundColor: 'black' }}>
                 <Toolbar >
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         <div className={s.cont}>
