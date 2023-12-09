@@ -18,8 +18,13 @@ function Projects() {
                 <img className={s.image2    + ' ' + s.images} src={require("./images/img4.jpg")} alt="1st-site" />
                 </div>
 
-                {/* <h1>Сайт портфолио</h1>
-                <img className={s.image3} src={require("./images/img.jpg")} alt="1st-site" /> */}
+                <a className={s.ref} href="https://github.com/bousenkeed/finaltest.git"><h1 className={s.text }>Итоговая работа</h1></a>
+                <div className={s.site_container2}>
+                <img className={s.image2    + ' ' + s.images} src={require("./images/img5.jpg")} alt="1st-site" />
+                <img className={s.image2    + ' ' + s.images} src={require("./images/img6.jpg")} alt="1st-site" />
+                <img className={s.image2    + ' ' + s.images} src={require("./images/img7.jpg")} alt="1st-site" />
+                <img className={s.image2    + ' ' + s.images} src={require("./images/img8.jpg")} alt="1st-site" />
+                </div>
             </div>
         </div>
     )
